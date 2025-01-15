@@ -9,7 +9,7 @@ export const Spinner = () => {
     }
     return (
         <div className="container">
-            <div className={'spinner-grow" text-${spinner.style} '} role="status">
+            <div className={`spinner-grow text-${spinner.style} ${spinner.visible ? '' : 'd-none'}`}role="status">
                 <span class="visually-hidden">Loading...</span>
             </div>
         </div>
