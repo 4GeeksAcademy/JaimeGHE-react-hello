@@ -3,6 +3,7 @@ import rigoImage from "../../img/rigo-baby.jpg";// Include images into your bund
 //6 Importar el componente y 7. Utilizar
 import Navbar from "./Navbar.jsx"; //Componente con export default.
 import { Footer } from "./Footer.jsx"; //Componente con export const.
+import { Jumbotron } from "./Jumbotron.jsx"; //Componente con export const.
 
 //2. Create your first component with PascalCase.
 const Home = () => {
@@ -12,13 +13,14 @@ const Home = () => {
 	return (
 		<div className="text-center">
 			<Navbar/>
-			<h1 className="text-center mt-5">Hello Rigo!</h1>
-			<p>
+			<h1 className="text-center mt-5">{"Intro React"}</h1>
+			<Jumbotron/>
+			{/* <p>
 				<img src={rigoImage} />
 			</p>
 			<a href="#" className="btn btn-success">
 				If you see this green button... bootstrap is working...
-			</a>
+			</a> */}
 			<Footer/>
 		</div>
 	);
