@@ -6,6 +6,7 @@ import { Footer } from "./Footer.jsx"; //Componente con export const.
 import { Jumbotron } from "./Jumbotron.jsx"; //Componente con export const.
 import { Alert } from "./Alert.jsx";
 import { Spinner } from "./Spinner.jsx";
+import { Card } from "./Card.jsx";
 
 //2. Create your first component with PascalCase.
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
 			<Alert/>
 			<Spinner/>
 			<h1 className="text-center mt-5">{"Intro React"}</h1>
+			<Card></Card>
 			<Jumbotron/>
 			{/* <p>
 				<img src={rigoImage} />
